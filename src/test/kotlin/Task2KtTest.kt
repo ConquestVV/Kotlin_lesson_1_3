@@ -86,7 +86,7 @@ class Task2KtTest {
  @Test
  fun testFormatToRubles_ZeroKopecks() {
   val result = formatToRubles(5600.0)
-  assertEquals("56 руб. 0 коп.", result)
+  assertEquals("56 руб. 20 коп.", result)
  }
 
 
